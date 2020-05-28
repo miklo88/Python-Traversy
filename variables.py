@@ -31,3 +31,24 @@ x, y, name, is_cool, = (1, 2.5, 'John', True)
 # print() is an output function in python like console.log in javascript
 # print('Hola!')
 print(x, y, name, is_cool)
+
+# Basic math
+a = x + y
+
+# print(x, y, name, is_cool)
+# print(a)
+
+# type function to give us the type of int. output in term should be
+# <class 'int'>
+# print(type(x))
+# thius is where we want to cast a different type of value to x aka casting
+# #casting
+x = str(x)
+y = int(y)
+z = float(y)
+# print(type(x))
+#  output is <class 'str'>
+print(type(y), y)
+#  output is <class 'int'> 2
+print(type(z), z)
+#  output is <class 'float'> 2.0
