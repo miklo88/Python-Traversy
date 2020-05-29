@@ -10,6 +10,10 @@ from datetime import date
 # or
 from time import time
 
+#import custom module from validator.py file
+import validator
+from validator import validate_email
+
 # Pip module
 from camelcase import CamelCase
 
@@ -20,6 +24,13 @@ timestamp = time()
 
 #Makes every word start with an uppercase
 c = CamelCase()
+
+#validator email
+email = 'test@test.com'
+if validate_email(email):
+    print('Email is valid')
+else: 
+    print('Email is muy mal')
 
 print(today)
 print(timestamp)
