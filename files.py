@@ -23,3 +23,5 @@ myFile.close()
 myFile = open('myfile.txt', 'r+')
 text = myFile.read(100)
 print(text)
+
+pyFile = open('py_json.py', 'w')
