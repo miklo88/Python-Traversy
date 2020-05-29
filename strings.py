@@ -41,9 +41,10 @@ print(s.endswith('d'))
 # Split into a list # take string and turn into list which is basically an array
 # Find position
 print(s.find('r'))
+# the following return true or false
 # Is all alphanumeric
 print(s.isalnum())
-# Is all alphabetic
+# Is all alpha #will return false bc of a space in hello world.
 print(s.isalpha())
 # Is all numeric
 print(s.isnumeric())
