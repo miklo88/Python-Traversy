@@ -1,10 +1,8 @@
 # A function is a block of code which only runs when it is called. In python, we do not use curly brackets, we use indentation with tabs or spaces
 
 # Create function
-def sayHello(name)
-
-
-print(f'Hello {name}')
+def sayHello(name):
+    print(f'Hello {name}')
 
 
 sayHello('Carlitos')
