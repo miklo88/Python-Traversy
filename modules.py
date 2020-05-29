@@ -25,7 +25,7 @@ timestamp = time()
 #Makes every word start with an uppercase
 c = CamelCase()
 
-#validator email
+#validator email from validator.py
 email = 'test@test.com'
 if validate_email(email):
     print('Email is valid')
