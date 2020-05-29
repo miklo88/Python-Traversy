@@ -35,6 +35,10 @@ print(fruits_set)
 fruits_set.remove('Grapes')
 print(fruits_set)
 
+# Add duplicate. It doesn't error, just adds apples again twice. but doesn't show it in the set.
+fruits_set.add('Apples')
+print(fruits_set)
+
 # Clear set
 fruits_set.clear()
 print(fruits_set)
