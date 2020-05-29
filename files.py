@@ -24,4 +24,5 @@ myFile = open('myfile.txt', 'r+')
 text = myFile.read(100)
 print(text)
 
+# created the next file to work on!
 pyFile = open('py_json.py', 'w')
