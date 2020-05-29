@@ -23,7 +23,7 @@ c = CamelCase()
 
 print(today)
 print(timestamp)
-# converts words first letter to uppercase # Hello There Big World Of Python
+# converts words first letter to uppercase # Hello There Big World Of Python from camelcase pip
 print(c.hump('hello there big world of python'))
 
 # installing pip3 install camelcase
